@@ -36,7 +36,7 @@ namespace helloworld
                 // Receive a text from console input and synthesize it to speaker.
                 Console.WriteLine(" Hello Welcome I will read what you give me ");
                 Console.Write("> ");
-                string text = System.IO.File.ReadAllText(@"C:\Users\svvlc\OneDrive\Desktop\poem.txt");
+                string text = System.IO.File.ReadAllText(@"C:\Users\svvlc\OneDrive\Desktop\data-all.txt");
 
                 while (true)
                 {
